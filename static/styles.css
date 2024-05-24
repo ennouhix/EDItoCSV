@@ -1,0 +1,32 @@
+/* static/styles.css */
+
+/* Style pour la barre de navigation */
+.navbar {
+    background-color: #2e3821; /* Couleur de fond de la barre de navigation */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombre sous la barre de navigation */
+}
+
+.navbar-brand {
+    padding: 10px 20px; /* Espacement intérieur du logo */
+}
+
+.navbar-brand img {
+    max-height: 40px; /* Hauteur maximale du logo */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Couleur du texte des liens */
+    font-size: 18px; /* Taille du texte des liens */
+    margin-right: 20px; /* Marge à droite entre les liens */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f39c12; /* Couleur du texte des liens au survol */
+}
+
+.navbar-nav .active .nav-link {
+    color: #f39c12; /* Couleur du texte du lien actif */
+}
+
+
+

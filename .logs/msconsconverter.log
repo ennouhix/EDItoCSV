@@ -1,0 +1,78 @@
+2024-05-23 18:35:18,543 - msconsconverter - DEBUG - class "MSCONSConverter" was created
+2024-05-23 18:35:18,545 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-23 18:35:18,545 - msconsconverter - DEBUG - parsing MSCONS file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-23 18:35:18,617 - msconsconverter - DEBUG - identified special characters of MSCONS
+2024-05-23 18:35:18,617 - msconsconverter - DEBUG - 
+special symbols that will be used
+            COMPONENT_SEPARATOR :
+            ELEMENT_SEPARATOR +
+            DECIMAL_MARK ,
+            RELEASE_SYMBOL ?
+            SEGMENTAION_SYMBOL '
+2024-05-23 18:35:18,619 - msconsconverter - WARNING - different date format
+2024-05-23 18:35:18,619 - msconsconverter - DEBUG - ['LOC', '172', 'US0001062600000001000000022345671']
+2024-05-23 18:35:18,619 - msconsconverter - DEBUG - Found LOC token ['LOC', '172', 'US0001062600000001000000022345671'] at line: 10
+2024-05-23 18:35:18,619 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-23 18:35:18,641 - msconsconverter - DEBUG - saving data to CSV
+2024-05-23 18:35:18,840 - msconsconverter - DEBUG - parsing results saved into file": outputs\MSCONS-2024-05-23-bkinjur.csv
+2024-05-23 18:35:18,840 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_SAMPLE02.txt
+
+2024-05-23 18:35:18,840 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 18:35:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-05-23 18:35:18,846 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 18:35:18] "GET / HTTP/1.1" 200 -
+2024-05-23 18:42:51,581 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,587 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,733 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,735 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,742 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,743 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,869 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,874 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:42:51,878 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:43:08,654 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_Multiple_LOC_SAMPLE.txt
+2024-05-23 18:43:08,760 - msconsconverter - WARNING - different date format
+2024-05-23 18:43:08,761 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-23 18:43:08,777 - msconsconverter - WARNING - different date format
+2024-05-23 18:43:08,777 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-23 18:43:08,798 - msconsconverter - WARNING - unexpected customized LOC format, excepted: 51481308448 ; found: 5148130844851481308448
+2024-05-23 18:43:09,116 - msconsconverter - WARNING - unexpected customized LOC format, excepted: 51481308456 ; found: 5148130845651481308456
+2024-05-23 18:43:09,345 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_Multiple_LOC_SAMPLE.txt
+
+2024-05-23 18:43:09,347 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 18:43:09] "[32mPOST / HTTP/1.1[0m" 302 -
+2024-05-23 18:43:09,356 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 18:43:09] "GET / HTTP/1.1" 200 -
+2024-05-23 18:43:35,305 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 18:43:35] "GET /outputs HTTP/1.1" 200 -
+2024-05-23 18:48:57,041 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 18:48:57,044 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 19:06:17,727 - msconsconverter - DEBUG - class "MSCONSConverter" was created
+2024-05-23 19:06:17,727 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-23 19:06:17,742 - msconsconverter - DEBUG - parsing MSCONS file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-23 19:06:17,775 - msconsconverter - DEBUG - identified special characters of MSCONS
+2024-05-23 19:06:17,775 - msconsconverter - DEBUG - 
+special symbols that will be used
+            COMPONENT_SEPARATOR :
+            ELEMENT_SEPARATOR +
+            DECIMAL_MARK ,
+            RELEASE_SYMBOL ?
+            SEGMENTAION_SYMBOL '
+2024-05-23 19:06:17,775 - msconsconverter - WARNING - different date format
+2024-05-23 19:06:17,775 - msconsconverter - DEBUG - ['LOC', '172', 'US0001062600000001000000022345671']
+2024-05-23 19:06:17,775 - msconsconverter - DEBUG - Found LOC token ['LOC', '172', 'US0001062600000001000000022345671'] at line: 10
+2024-05-23 19:06:17,775 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-23 19:06:17,789 - msconsconverter - DEBUG - saving data to CSV
+2024-05-23 19:06:17,895 - msconsconverter - DEBUG - parsing results saved into file": outputs\MSCONS-2024-05-23-fp51yd2.csv
+2024-05-23 19:06:17,895 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_SAMPLE02.txt
+
+2024-05-23 19:06:17,895 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:17] "[32mPOST /convert HTTP/1.1[0m" 302 -
+2024-05-23 19:06:17,895 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:17] "GET /convert HTTP/1.1" 200 -
+2024-05-23 19:06:20,703 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:20] "GET /outputs HTTP/1.1" 200 -
+2024-05-23 19:06:24,398 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:24] "GET /download/MSCONS-2024-05-23-ocaswrk.csv HTTP/1.1" 200 -
+2024-05-23 19:06:27,122 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:27] "GET / HTTP/1.1" 200 -
+2024-05-23 19:06:28,359 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 19:06:28] "GET / HTTP/1.1" 200 -
+2024-05-23 20:34:56,068 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:34:56] "GET /convert HTTP/1.1" 200 -
+2024-05-23 20:34:58,577 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:34:58] "GET /outputs HTTP/1.1" 200 -
+2024-05-23 20:35:01,034 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:35:01] "GET / HTTP/1.1" 200 -
+2024-05-23 20:35:03,980 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:35:03] "GET /convert HTTP/1.1" 200 -
+2024-05-23 20:35:04,709 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:35:04] "GET /outputs HTTP/1.1" 200 -
+2024-05-23 20:35:05,492 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:35:05] "GET / HTTP/1.1" 200 -
+2024-05-23 20:37:40,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-23 20:37:40,767 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
