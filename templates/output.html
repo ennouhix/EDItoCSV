@@ -27,12 +27,15 @@
         </div>
     </nav>
     <div class="container">
-        <h1 class="mt-5">Converted CSV Files</h1>
+        <h1 class="mt-5">Converted Files</h1>
         <ul class="list-group mt-3">
             {% for file in files %}
             <li class="list-group-item">
                 {{ file }}
-                <a href="{{ url_for('download_file', filename=file) }}" class="btn btn-primary btn-sm float-right">Download</a>
+                <div class="float-right">
+                    <a href="{{ url_for('download_file', filename=file, format='json') }}" class="btn btn-primary btn-sm">Download as JSON</a>
+                    <a href="{{ url_for('download_file', filename=file, format='xml') }}" class="btn btn-secondary btn-sm">Download as XML</a>
+                </div>
             </li>
             {% endfor %}
         </ul>
