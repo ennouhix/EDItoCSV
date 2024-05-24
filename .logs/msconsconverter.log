@@ -76,3 +76,98 @@ special symbols that will be used
 2024-05-23 20:35:05,492 - werkzeug - INFO - 127.0.0.1 - - [23/May/2024 20:35:05] "GET / HTTP/1.1" 200 -
 2024-05-23 20:37:40,764 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
 2024-05-23 20:37:40,767 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-24 20:57:16,944 - msconsconverter - INFO - start processing file: uploads\MSCONS-2024-05-23-ocaswrk.csv
+2024-05-24 20:57:16,951 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2024-05-24 20:57:16,954 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\msconsconverter\\functions.py', reloading
+2024-05-24 20:57:16,956 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\msconsconverter\\msconsconverter.py', reloading
+2024-05-24 20:57:16,967 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:57:16] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2024-05-24 20:57:16,992 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:57:16] "GET /convert?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-05-24 20:57:16,992 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:57:16] "GET /convert?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-05-24 20:57:17,074 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:57:17] "GET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-05-24 20:57:17,119 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:57:17] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 20:58:36,198 - msconsconverter - INFO - start processing file: uploads\MSCONS-2024-05-23-ocaswrk.csv
+2024-05-24 20:58:36,223 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:36] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2024-05-24 20:58:36,357 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:36] "[36mGET /convert?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-24 20:58:36,372 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:36] "[36mGET /convert?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-24 20:58:36,388 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:36] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 20:58:36,412 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:36] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 20:58:43,757 - msconsconverter - DEBUG - class "MSCONSConverter" was created
+2024-05-24 20:58:43,757 - msconsconverter - INFO - start processing file: uploads\MSCONS-2024-05-23-lqu0140.csv
+2024-05-24 20:58:43,757 - msconsconverter - DEBUG - parsing MSCONS file: uploads\MSCONS-2024-05-23-lqu0140.csv
+2024-05-24 20:58:43,757 - msconsconverter - DEBUG - identified special characters of MSCONS
+2024-05-24 20:58:43,757 - msconsconverter - DEBUG - no special characters were found, default will be used
+2024-05-24 20:58:43,757 - msconsconverter - DEBUG - 
+special symbols that will be used
+            COMPONENT_SEPARATOR :
+            ELEMENT_SEPARATOR +
+            DECIMAL_MARK .
+            RELEASE_SYMBOL ?
+            SEGMENTAION_SYMBOL '
+2024-05-24 20:58:43,772 - msconsconverter - DEBUG - ['LOC_MSCONS,LOC_PLZ,LOC_EEGKEY,DATE_PERIOD_START,YEAR_PS,MONTH_PS,DAY_PS,HOUR_PS,MINUTE_PS,UTC_PS,DATE_PERIOD_END,YEAR_PE,MONTH_PE,DAY_PE,HOUR_PE,MINUTE_PE,UTC_PE,VALUE\n']
+2024-05-24 20:58:43,804 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:43] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2024-05-24 20:58:43,824 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:43] "[36mGET /convert?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-24 20:58:43,828 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:43] "[36mGET /convert?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-24 20:58:43,876 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:43] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 20:58:49,023 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:49] "GET /outputs HTTP/1.1" 200 -
+2024-05-24 20:58:49,037 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:49] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-24 20:58:49,037 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:49] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 20:58:50,275 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:50] "GET /download/MSCONS-2024-05-23-bkinjur.csv/json HTTP/1.1" 200 -
+2024-05-24 20:58:56,096 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:56] "GET /uploads HTTP/1.1" 200 -
+2024-05-24 20:58:56,112 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:56] "[36mGET /static/stylesuploads.css HTTP/1.1[0m" 304 -
+2024-05-24 20:58:56,112 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:58:56] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 20:59:00,036 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:00] "GET /convert HTTP/1.1" 200 -
+2024-05-24 20:59:00,054 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:00] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 20:59:00,055 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:00] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 20:59:08,079 - msconsconverter - INFO - start processing file: uploads\MSCONS-2024-05-23-bkinjur.csv
+2024-05-24 20:59:08,097 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:08] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2024-05-24 20:59:08,123 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:08] "[36mGET /convert?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-24 20:59:08,123 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:08] "[36mGET /convert?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-24 20:59:08,139 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 20:59:08] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:12,696 - msconsconverter - INFO - start processing file: uploads\MSCONS-2024-05-23-lqu0140.csv
+2024-05-24 21:01:12,725 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:12] "[35m[1mPOST /convert HTTP/1.1[0m" 500 -
+2024-05-24 21:01:12,751 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:12] "[36mGET /convert?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:12,751 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:12] "[36mGET /convert?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-05-24 21:01:12,776 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:12] "[36mGET /convert?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,507 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:01:40,536 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,539 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,674 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:01:40,695 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,697 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,828 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:01:40,848 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,848 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:40,996 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:40] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:01:41,014 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:41] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:41,016 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:41] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:01:41,143 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:41] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:01:41,171 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:41] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:01:41,171 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:01:41] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:02:15,553 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_Multiple_LOC_SAMPLE.txt
+2024-05-24 21:02:15,675 - msconsconverter - WARNING - different date format
+2024-05-24 21:02:15,675 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-24 21:02:15,709 - msconsconverter - WARNING - different date format
+2024-05-24 21:02:15,709 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-24 21:02:15,723 - msconsconverter - WARNING - unexpected customized LOC format, excepted: 51481308448 ; found: 5148130844851481308448
+2024-05-24 21:02:15,928 - msconsconverter - WARNING - unexpected customized LOC format, excepted: 51481308456 ; found: 5148130845651481308456
+2024-05-24 21:02:16,063 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_Multiple_LOC_SAMPLE.txt
+
+2024-05-24 21:02:16,065 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:16] "[32mPOST /convert HTTP/1.1[0m" 302 -
+2024-05-24 21:02:16,071 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:16] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:02:16,089 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:16] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:02:16,096 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:16] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:02:19,107 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:19] "GET /outputs HTTP/1.1" 200 -
+2024-05-24 21:02:19,126 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:19] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-24 21:02:19,128 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:19] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:02:22,713 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:22] "GET /uploads HTTP/1.1" 200 -
+2024-05-24 21:02:22,734 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:22] "[36mGET /static/stylesuploads.css HTTP/1.1[0m" 304 -
+2024-05-24 21:02:22,736 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:22] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:02:24,033 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "GET /outputs HTTP/1.1" 200 -
+2024-05-24 21:02:24,050 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-24 21:02:24,050 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:02:24,401 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "GET /convert HTTP/1.1" 200 -
+2024-05-24 21:02:24,421 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-24 21:02:24,422 - werkzeug - INFO - 127.0.0.1 - - [24/May/2024 21:02:24] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-24 21:04:29,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-24 21:04:29,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-24 21:04:29,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading

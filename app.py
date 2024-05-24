@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, redirect, url_for, send_from_
 import os
 import logging
 import pandas as pd
+import requests
 from msconsconverter.functions import convert_batch, convert_single
 from msconsconverter.logger import CustomLogger
 
@@ -77,10 +78,41 @@ def download_file(filename, format):
         converted_file = convert_to_json(filepath)
     elif format == 'xml':
         converted_file = convert_to_xml(filepath)
+    elif format == 'csv':
+        return send_from_directory(app.config["OUTPUT_FOLDER"], filename, as_attachment=True)
     else:
         return "Format not supported", 400
 
     return send_from_directory(app.config["OUTPUT_FOLDER"], os.path.basename(converted_file), as_attachment=True)
+
+@app.route('/upload_to_bc365', methods=['GET', 'POST'])
+def upload_to_bc365():
+    if request.method == 'POST':
+        file = request.files.get('csv_file')
+        if not file or file.filename == '':
+            flash('No file selected', 'error')
+            return redirect(url_for('upload_to_bc365'))
+        
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        file.save(filepath)
+        
+        # Logic to upload file to Business Central
+        url = "https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0/companies({company_id})/contacts"  # Example URL
+        headers = {
+            'Content-Type': 'application/json',
+            'Authorization': 'Bearer {access_token}'  # Replace with actual token
+        }
+        with open(filepath, 'rb') as f:
+            response = requests.post(url, headers=headers, data=f)
+        
+        if response.status_code == 200:
+            flash('File successfully uploaded to Business Central 365!', 'success')
+        else:
+            flash(f'Failed to upload file: {response.text}', 'error')
+
+        return redirect(url_for('upload_to_bc365'))
+    
+    return render_template('upload_to_bc365.html')
 
 @app.route('/', methods=['GET', 'POST'])
 def login():

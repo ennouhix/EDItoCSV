@@ -2,35 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>MSCONS to CSV Converter</title>
+    <title>EDIFACT to CSV Converter</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesconvert.css') }}">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='logo.png') }}" alt="Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='logo.png') }}" alt="MyApp Logo"> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('convert') }}">Convert</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('list_outputs') }}">Outputs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('list_uploads') }}">Uploads</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('convert') }}">Convert</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('list_uploads') }}">Uploads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('list_outputs') }}">Outputs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('upload_to_bc365') }}">Upload to BC365</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     <div class="container">
-        <h1 class="mt-5">Convert MSCONS to CSV</h1>
+        <h1 class="mt-5">Convert EDIFACT to CSV</h1>
         <form method="post" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="input_file">Select MSCONS File:</label>
+                <label for="input_file">Select EDIFACT File:</label>
                 <input type="file" class="form-control-file" id="input_file" name="input_file">
             </div>
             <div class="form-group">
