@@ -89,18 +89,26 @@ def download_file(filename, format):
 def upload_to_bc365():
     if request.method == 'POST':
         file = request.files.get('csv_file')
+        environment = request.form.get('environment')
+        company_id = request.form.get('company_id')
+        access_token = request.form.get('access_token')
+        
         if not file or file.filename == '':
             flash('No file selected', 'error')
+            return redirect(url_for('upload_to_bc365'))
+        
+        if not environment or not company_id or not access_token:
+            flash('All parameters are required', 'error')
             return redirect(url_for('upload_to_bc365'))
         
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
         file.save(filepath)
         
         # Logic to upload file to Business Central
-        url = "https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0/companies({company_id})/contacts"  # Example URL
+        url = f"https://api.businesscentral.dynamics.com/v2.0/{environment}/api/v2.0/companies({company_id})/contacts"
         headers = {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer {access_token}'  # Replace with actual token
+            'Authorization': f'Bearer {access_token}'
         }
         with open(filepath, 'rb') as f:
             response = requests.post(url, headers=headers, data=f)
@@ -132,4 +140,6 @@ def home():
     return render_template('home.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    #app.run(debug=True)
+    app.run(host='0.0.0.0') 
+    

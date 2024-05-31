@@ -5,41 +5,55 @@
     <title>Uploaded Files</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='stylesuploads.css') }}">
+    <style>
+        body {
+            display: flex;
+        }
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #343a40;
+            padding-top: 20px;
+        }
+        .sidebar a {
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #575d63;
+        }
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+            flex-grow: 1;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='logo.png') }}" alt="MyApp Logo"> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('home') }}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('convert') }}">Convert</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('list_uploads') }}">Uploads</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('list_outputs') }}">Outputs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('upload_to_bc365') }}">Upload to BC365</a>
-            </li>
-          </ul>
+    <div class="sidebar">
+        <a class="navbar-brand" href="#">EDIFACT CONVERTER</a>
+        <a href="{{ url_for('home') }}">Home</a>
+        <a href="{{ url_for('convert') }}">Convert</a>
+        <a href="{{ url_for('list_uploads') }}">Uploads</a>
+        <a href="{{ url_for('list_outputs') }}">Outputs</a>
+        <a href="{{ url_for('upload_to_bc365') }}">Upload to BC365</a>
+    </div>
+    <div class="content">
+        <div class="container">
+            <h1 class="mt-5">Uploaded Files</h1>
+            <ul class="list-group mt-3">
+                {% for file in uploaded_files %}
+                <li class="list-group-item">{{ file }}</li>
+                {% endfor %}
+            </ul>
+            <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to Home</a>
         </div>
-      </nav>
-    <div class="container">
-        <h1 class="mt-5">Uploaded Files</h1>
-        <ul class="list-group mt-3">
-            {% for file in uploaded_files %}
-            <li class="list-group-item">{{ file }}</li>
-            {% endfor %}
-        </ul>
-        <a href="{{ url_for('home') }}" class="btn btn-secondary mt-3">Back to Home</a>
     </div>
 </body>
 </html>

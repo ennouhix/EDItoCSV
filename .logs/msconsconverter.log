@@ -171,3 +171,78 @@ special symbols that will be used
 2024-05-24 21:04:29,392 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
 2024-05-24 21:04:29,396 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
 2024-05-24 21:04:29,397 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\app.py', reloading
+2024-05-26 22:49:49,205 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-26 22:49:49,282 - msconsconverter - WARNING - different date format
+2024-05-26 22:49:49,283 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-26 22:49:49,554 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_SAMPLE02.txt
+
+2024-05-26 22:49:49,558 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:49] "[32mPOST /convert HTTP/1.1[0m" 302 -
+2024-05-26 22:49:49,569 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:49] "GET /convert HTTP/1.1" 200 -
+2024-05-26 22:49:49,593 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:49] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-26 22:49:49,595 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:49] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-26 22:49:54,478 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:54] "GET /uploads HTTP/1.1" 200 -
+2024-05-26 22:49:54,500 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:54] "[36mGET /static/stylesuploads.css HTTP/1.1[0m" 304 -
+2024-05-26 22:49:54,505 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:54] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-26 22:49:55,645 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:55] "GET /outputs HTTP/1.1" 200 -
+2024-05-26 22:49:55,666 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:55] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-26 22:49:55,666 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:49:55] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-26 22:50:02,974 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:50:02] "GET /download/MSCONS-2024-05-26-d039kil.csv/json HTTP/1.1" 200 -
+2024-05-26 22:50:18,049 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:50:18] "GET /download/MSCONS-2024-05-26-d039kil.csv/xml HTTP/1.1" 200 -
+2024-05-26 22:50:28,677 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:50:28] "GET /download/MSCONS-2024-05-26-d039kil.csv/csv HTTP/1.1" 200 -
+2024-05-26 22:51:45,315 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:45] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-26 22:51:45,333 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-26 22:51:45,334 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:45] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-26 22:51:57,208 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:57] "[32mPOST /upload_to_bc365 HTTP/1.1[0m" 302 -
+2024-05-26 22:51:57,224 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:57] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-26 22:51:57,250 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-26 22:51:57,254 - werkzeug - INFO - 127.0.0.1 - - [26/May/2024 22:51:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-26 22:52:05,225 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\msconsconverter\\constants.py', reloading
+2024-05-26 22:52:05,242 - werkzeug - INFO -  * Detected change in 'C:\\Users\\hp\\Desktop\\project\\msconsconverter\\msconsconverter.py', reloading
+2024-05-29 11:20:17,469 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_SAMPLE02.txt
+2024-05-29 11:20:17,546 - msconsconverter - WARNING - different date format
+2024-05-29 11:20:17,546 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-29 11:20:17,765 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_SAMPLE02.txt
+
+2024-05-29 11:20:17,774 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:17] "[32mPOST /convert HTTP/1.1[0m" 302 -
+2024-05-29 11:20:17,782 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:17] "GET /convert HTTP/1.1" 200 -
+2024-05-29 11:20:17,790 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:17] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:17,798 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:17] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:20:20,202 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:20] "GET /uploads HTTP/1.1" 200 -
+2024-05-29 11:20:20,224 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:20] "[36mGET /static/stylesuploads.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:20,224 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:20] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:20:21,460 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:21] "GET /outputs HTTP/1.1" 200 -
+2024-05-29 11:20:21,477 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:21] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:20:21,477 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:21] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:29,187 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:29] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-29 11:20:29,206 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:29,208 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:29] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:20:54,284 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[32mPOST /upload_to_bc365 HTTP/1.1[0m" 302 -
+2024-05-29 11:20:54,292 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-29 11:20:54,301 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:54,308 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:20:54,752 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[32mPOST /upload_to_bc365 HTTP/1.1[0m" 302 -
+2024-05-29 11:20:54,770 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-29 11:20:54,791 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-29 11:20:54,793 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:20:54] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:47:57,357 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:57] "GET /home HTTP/1.1" 200 -
+2024-05-29 11:47:57,374 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:57] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:47:57,374 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-29 11:47:57,374 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:57] "[36mGET /static/image.png HTTP/1.1[0m" 304 -
+2024-05-29 11:47:59,265 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:59] "GET /convert HTTP/1.1" 200 -
+2024-05-29 11:47:59,279 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:59] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-29 11:47:59,279 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:47:59] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:48:24,365 - msconsconverter - INFO - start processing file: uploads\MSCONS_TL_SAMPLE01.txt
+2024-05-29 11:48:24,419 - msconsconverter - WARNING - different date format
+2024-05-29 11:48:24,419 - msconsconverter - WARNING - PIA was found, but ignored
+2024-05-29 11:48:24,622 - msconsconverter - INFO - finish processing file: uploads\MSCONS_TL_SAMPLE01.txt
+
+2024-05-29 11:48:24,623 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:24] "[32mPOST /convert HTTP/1.1[0m" 302 -
+2024-05-29 11:48:24,632 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:24] "GET /convert HTTP/1.1" 200 -
+2024-05-29 11:48:24,646 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:24] "[36mGET /static/stylesconvert.css HTTP/1.1[0m" 304 -
+2024-05-29 11:48:24,646 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:24] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:48:31,502 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:31] "GET /outputs HTTP/1.1" 200 -
+2024-05-29 11:48:31,526 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:31] "[36mGET /static/stylesoutputs.css HTTP/1.1[0m" 304 -
+2024-05-29 11:48:31,526 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:48:31] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
+2024-05-29 11:49:23,329 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:49:23] "GET /upload_to_bc365 HTTP/1.1" 200 -
+2024-05-29 11:49:23,351 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:49:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2024-05-29 11:49:23,351 - werkzeug - INFO - 127.0.0.1 - - [29/May/2024 11:49:23] "[36mGET /static/logo.png HTTP/1.1[0m" 304 -
