@@ -1,2 +1,2 @@
 # EDItoCSV
-A web application  to read  EDIFACT file and convert to CSV 
+A web application  to read  EDIFACT file and convert to CSV/XML/JSON
