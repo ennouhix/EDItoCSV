@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # EDI Converter
 
 ## Description
