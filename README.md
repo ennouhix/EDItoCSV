@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EDI Converter
 
 ## Description
@@ -54,3 +55,7 @@ converter = EDIConverter(target_dir='/path/to/output/', logger=logger)
 
 # Conversion d'un fichier EDI
 converter.convert_to_csv('/path/to/edi/file.edi', ['Header1', 'Header2', 'Header3'])
+=======
+# EDItoCSV
+A web application  to read  EDIFACT file and convert to CSV/XML/JSON
+>>>>>>> 9da30e2e84df322b7c322fe01ac04047811240cb
